@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spotify Clone</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+  
+  <nav>
+    <ul>
+      <li class="brand">
+        <img src="logo.png" alt="Spotify Logo">
+        Spotify
+      </li>
+      <li>Home</li>
+      <li>About</li>
+    </ul>
+  </nav>
+
+  
+  <div class="container">
+    <div class="songList">
+      <h1>Best of NCS - No Copyright Sounds</h1>
+      <div class="songItemContainer">
+        <div class="songItem">
+          <img src="cover/1.jpg" alt="Let Me Love You Cover">
+          <span>Let Me Love You</span>
+          <span class="songListplay">
+            <span class="timestamp">05:34</span>
+            <i class="fas fa-play playBtn"></i>
+          </span>
+        </div>
+        <div class="songItem">
+          <img src="cover/2.jpg" alt="Alone Cover">
+          <span>Alone</span>
+          <span class="songListplay">
+            <span class="timestamp">04:12</span>
+            <i class="fas fa-play playBtn"></i>
+          </span>
+        </div>
+        <div class="songItem">
+          <img src="cover/3.jpg" alt="Faded Cover">
+          <span>Faded</span>
+          <span class="songListplay">
+            <span class="timestamp">03:45</span>
+            <i class="fas fa-play playBtn"></i>
+          </span>
+        </div>
+        <div class="songItem">
+          <img src="cover/4.jpg" alt="On & On Cover">
+          <span>On & On</span>
+          <span class="songListplay">
+            <span class="timestamp">04:01</span>
+            <i class="fas fa-play playBtn"></i>
+          </span>
+        </div>
+        <div class="songItem">
+          <img src="cover/5.jpg" alt="Spectre Cover">
+          <span>Spectre</span>
+          <span class="songListplay">
+            <span class="timestamp">03:18</span>
+            <i class="fas fa-play playBtn"></i>
+          </span>
+        </div>
+        <div class="songItem">
+          <img src="cover/6.jpg" alt="Sadiya Cover">
+          <span>Sadiya</span>
+          <span class="songListplay">
+            <span class="timestamp">02:34</span>
+            <i class="fas fa-play playBtn"></i>
+          </span>
+        </div>
+        <div class="songItem">
+          <img src="cover/7.jpg" alt="Fade Cover">
+          <span>Fade</span>
+          <span class="songListplay">
+            <span class="timestamp">02:57</span>
+            <i class="fas fa-play playBtn"></i>
+          </span>
+        </div>
+        <div class="songItem">
+          <img src="cover/8.jpg" alt="Koyé Cover">
+          <span>Koyé</span>
+          <span class="songListplay">
+            <span class="timestamp">02:00</span>
+            <i class="fas fa-play playBtn"></i>
+          </span>
+        </div>
+        <div class="songItem">
+          <img src="cover/9.jpg" alt="Aye Cover">
+          <span>Aye</span>
+          <span class="songListplay">
+            <span class="timestamp">03:57</span>
+            <i class="fas fa-play playBtn"></i>
+          </span>
+        </div>
+        <div class="songItem">
+          <img src="cover/10.jpg" alt="Fiyanna Cover">
+          <span>Fiyanna</span>
+          <span class="songListplay">
+            <span class="timestamp">02:05</span>
+            <i class="fas fa-play playBtn"></i>
+          </span>
+        </div>
+      </div>
+    </div>
+    <div class="songBanner"></div>
+  </div>
+
+  
+  <div class="bottom">
+    <input type="range" name="range" id="myProgressBar" min="0" max="100">
+    <div class="icons">
+      <i class="fas fa-step-backward" id="prev"></i>
+      <i class="fas fa-play" id="masterPlay"></i>
+      <i class="fas fa-step-forward" id="next"></i>
+    </div>
+    <div class="songInfo">
+      <img src="playing.gif" alt="Now Playing Animation" id="gif" style="opacity: 0;">
+      <span id="currentSong">Let Me Love You - Justin Bieber</span>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
